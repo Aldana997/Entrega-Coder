@@ -47,7 +47,7 @@ body {
     font-size: 16px;
     border-radius: 3px;
     border: 1px solid #ccc;
-    box-sizing: border-box; /* Asegura que el tamaño total incluya el padding y el borde */
+    box-sizing: border-box; 
     align-items: center;
   }
   
@@ -65,13 +65,71 @@ body {
     text-align: center
   }
   
-  button:hover {
-    background-color: #520109;
-  }
-   .contenedor{
+
+
+.contenedor{
     text-align: center;
     padding-top: 30px;
-   }
+}
 
 
+.nav-home{
+  background-color: grey;
+  width: 1000px;
+  
+}
+
+.logo{
+  width: 100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.menu-home{
+  text-decoration: none;
+  color: white;
+}
+
+.menu{
+  margin-left: 650px;
+  margin-bottom: 550px;
+}
+
+
+
+.carousel{
+  width: 100%;
+  height: auto;
+  align-self: center;
+  width: 80%;
+  display: flex;
+  top: 100px;
+  right: 700px;
+}
+
+.contenedor-centrado{
+justify-content: center;
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+color: black; 
+background-color: black; 
+border: none; 
+outline: none; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: #700009;
+color: rgb(8, 8, 8); 
+border-radius: 50%; 
+padding: 10px; 
+}
+
+.visually-hidden {
+display: none;
+}
 

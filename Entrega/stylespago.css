@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Montserrat:wght@200;300;600&display=swap');
+
+
+
+body{
+    font-family:'Josefin Sans', sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    color: white;
+}
+
+.contenedor-metodopago{
+    background-color: #95000c;
+    border-radius: 5px;
+    width: 450px;
+    height: 200px;
+    color: white;
+
+}
+
+.continuar{
+    background-color: black;
+    border-color: gray;
+    margin-top: 40px;
+    margin-left: 166px;
+    border-radius: 5px;
+    color: white;
+}
+
+.metodopago{
+    margin-left: 20px;
+    margin-top: 20px;
+}

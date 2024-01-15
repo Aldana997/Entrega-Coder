@@ -31,25 +31,23 @@ header{
 
 
 
-/* Estilos para los botones de control del carrusel */
+
 .carousel-control-prev,
 .carousel-control-next {
-  color: black; /* Cambia el color de los botones a negro */
-  background-color: black; /* Fondo transparente para los botones */
-  border: none; /* Elimina el borde */
-  outline: none; /* Elimina el contorno al hacer foco */
+  color: black; 
+  background-color: black; 
+  border: none; 
+  outline: none; 
 }
 
-/* Estilos para los íconos de los botones de control */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: rgb(132, 0, 255); /* Cambia el color del ícono a negro */
-  color: rgb(8, 8, 8); /* Color del ícono */
-  border-radius: 50%; /* Borde redondeado para el ícono */
-  padding: 10px; /* Espaciado interno */
+  background-color: rgb(132, 0, 255);
+  color: rgb(8, 8, 8); 
+  border-radius: 50%; 
+  padding: 10px; 
 }
 
-/* Estilos para ocultar el texto "Previous" y "Next" (opcional) */
 .visually-hidden {
   display: none;
 }

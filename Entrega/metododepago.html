@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selección de Método de Pago</title>
+  <link rel="stylesheet" href="stylespago.css">
 </head>
 <body>
-    
+
+  <h2>Seleccione su método de pago:</h2>
+
+  <form action="procesar_pago.php" method="post">
+    <label for="metodo_pago">Método de Pago:</label>
+    <select id="metodo_pago" name="metodo_pago">
+      <option value="Efectivo">Efectivo</option>
+      <option value="Tarjeta-débito">Tarjeta de débito</option>
+    </select>
+
+    <input type="submit" value="Continuar">
+  </form>
+
 </body>
 </html>

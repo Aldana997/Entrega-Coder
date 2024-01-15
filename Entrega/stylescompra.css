@@ -90,4 +90,10 @@ h3{
   position: absolute;
   bottom: 20px;
   left: 180px;
+
+}
+
+.texto-boton{
+  text-decoration: none;
+  color: black;
 }

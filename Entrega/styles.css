@@ -329,8 +329,49 @@ h4{
 
 /*Comienzo comprobante*/
 
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
 
-.comprobante{
-  width: 200px;
-  height: auto;
+.container-botones{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.botones-fin{
+  background-color:#ccc;
+  border-radius: 3px;  
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  width: 150px;
+  text-align: center;
+  color: black;
+}
+
+.botones-fin2{
+  background-color:#ccc;
+  border-radius: 3px;  
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  width: 100px;
+  text-align: center;
+  color: black;
+  align-items: center;
+}
+
+.cartel-final{
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px hsl(355, 100%, 22%);
+  width: 40%;
+  height: 200px; 
+  position: relative;
+  top: 100px;
+  left: 30%;
 }

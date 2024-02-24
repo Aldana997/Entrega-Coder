@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selección de Método de Pago</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+
+    <div class="contenedor-metodopago">
+        <h4>Seleccione su método de pago: </h4>
+
+        <div>
+            <form action="procesar_pago.php"        class="metodopago" method="post">
+                <label for="metodo_pago">Método de Pago:</label>
+                <select id="metodo_pago" name="metodo_pago">
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta-débito">Tarjeta de débito</option>
+                </select>
+            
+                <div class="boton-pagar">
+                    <a href="comprobante.html" class="texto-boton-pagar"><label for="Continuar">Continuar</label></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

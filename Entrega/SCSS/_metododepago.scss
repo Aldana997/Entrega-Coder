@@ -1,0 +1,58 @@
+// Estilos de método de pago
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    color: white;
+    position: relative;
+    top: 10px;
+  }
+  
+  .contenedor-metodopago {
+    background-color: #95000c;
+    border-radius: 5px;
+    width: 450px;
+    height: 200px;
+    color: white;
+    position: relative;
+    left: 30%;
+    top: 100px;
+  }
+  
+  .continuar {
+    background-color: black;
+    border-color: gray;
+    margin-top: 40px;
+    margin-left: 166px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .metodopago {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 40px;
+    left: 10%;
+  }
+  
+  #metodo_pago {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .boton-pagar {
+    border-radius: 5px;
+    background-color: #ccc;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    left: 20%;
+  }
+  
+  .texto-boton-pagar {
+    text-decoration: none;
+    color: white;
+  }
+  

@@ -1,0 +1,76 @@
+// Estilos de comprobante
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-botones {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.botones-fin {
+  background-color: #ccc;
+  border-radius: 3px;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  width: 150px;
+  text-align: center;
+  color: black;
+}
+
+.botones-fin2 {
+  background-color: #ccc;
+  border-radius: 3px;
+  text-decoration: none;
+  position: relative;
+  top: 50px;
+  width: 100px;
+  text-align: center;
+  color: black;
+  align-items: center;
+}
+
+.cartel-final {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px hsl(355, 100%, 22%);
+  width: 40%;
+  height: 200px;
+  position: relative;
+  justify-content: center;
+  top: 100px;
+  left: 30%;
+}
+
+.botones-fin:hover {
+  background-color: #b64853;
+}
+
+.botones-fin2:hover {
+  background-color: #b64853;
+}
+
+@media (max-width: 700px) {
+  .cartel-final {
+    width: 50%;
+    position: relative;
+    align-content: center;
+  }
+
+  .botones-fin {
+    position: relative;
+    justify-content: center;
+    margin-top: 20%;
+  }
+
+  .botones-fin2 {
+    position: relative;
+    justify-content: center;
+    margin-bottom: 20%;
+  }
+}

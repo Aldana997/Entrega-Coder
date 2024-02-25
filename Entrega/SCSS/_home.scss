@@ -1,0 +1,69 @@
+// Estilos del home
+/* Estilos para pantallas grandes */
+@media (min-width: 992px) {
+    .navbar-nav {
+      background-color: #a4a4a4;
+    }
+  
+    .nav-home {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+    }
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .menu-home {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu {
+    width: 50%;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+  
+  .menu-home:hover {
+    background-color: #a4a4a4;
+    border-radius: 5px;
+  }
+  
+  .carousel {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+  }
+  
+  .contenedor-centrado {
+    justify-content: center;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: black;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #700009;
+    color: rgb(8, 8, 8);
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .visually-hidden {
+    display: none;
+  }
+  

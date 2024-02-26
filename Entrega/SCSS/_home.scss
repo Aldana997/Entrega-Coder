@@ -3,14 +3,26 @@
 @media (min-width: 992px) {
     .navbar-nav {
       background-color: #a4a4a4;
+    
     }
   
     .nav-home {
       flex-wrap: nowrap;
       justify-content: flex-start;
     }
+
+    .navbar-nav{
+      flex-direction: row;
+      width: 100%;
+      justify-content: flex-end;
+    }
   }
-  
+
+
+      
+
+
+
   .logo {
     width: 100px;
     height: auto;
@@ -63,6 +75,7 @@
     padding: 10px;
   }
 
+  
   
   .visually-hidden {
     display: none;

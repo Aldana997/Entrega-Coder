@@ -17,10 +17,6 @@ button {
   text-align: center;
 }
 
-.contenedor:hover {
-  background-color:#b64853;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -162,6 +158,7 @@ h2 {
 .contenedor-centrado {
   justify-content: center;
 }
+
 
 .carousel-control-prev,
 .carousel-control-next {

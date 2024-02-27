@@ -57,6 +57,29 @@
   
   .contenedor-centrado {
     justify-content: center;
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+  }
+  
+  .gradient-background {
+      background: rgb(112,0,9);
+      background: linear-gradient(0deg, rgba(112,0,9,1) 0%, rgba(238,143,153,1) 100%);
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .login-container {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+  }
+  
+  
   }
   
   .carousel-control-prev,
